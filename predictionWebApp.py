@@ -4,11 +4,11 @@ import streamlit as st
  
  
 
-with open("C:/Users/myelu/Desktop/diabetes_prediction/saved_model/diabetes_model.sav", "rb") as file:
-     diabetes_model = pickle.load(file)
+#with open("C:/Users/myelu/Desktop/diabetes_prediction/saved_model/diabetes_model.sav", "rb") as file:
+#     diabetes_model = pickle.load(file)
 
-#with open("saved_model/diabetes_model.sav", "rb") as file:
- #   diabetes_model= pickle.load(file)
+with open("saved_model/diabetes_model.sav", "rb") as file:
+     diabetes_model= pickle.load(file)
 
 
  
